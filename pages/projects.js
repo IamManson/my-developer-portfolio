@@ -80,5 +80,18 @@ export default () => (
             `}
         </style>
     </div>
+    <div className="gitProjects">
+        {/* Link to project */}
+        <Button class="btn btn-primary btn-block btn-lg" href="https://github.com/IamManson" target="_blank">View Other Tasks in GitHub</Button>
+        
+        {/* jsx styling */}
+        <style jsx>
+            {`  
+                .projectThree {
+                    padding-top: 45px;
+                }
+            `}
+        </style>
+    </div>
   </Layout>
 )

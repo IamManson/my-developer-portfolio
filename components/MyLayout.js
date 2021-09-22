@@ -3,12 +3,13 @@ import Link from 'next/link'
 
 // Importing next/react-bootstrap components
 import Head from 'next/head'
-import Header from './Header'
+//import Header from '../../Header'
 
 const layoutStyle = {
     margin: 20,
     padding: 20,
 }
+
 
 // Layout
 const Layout = (props) => (
@@ -22,7 +23,6 @@ const Layout = (props) => (
 		/>
 	</Head>
   	<div style={layoutStyle}>
-    	<Header />
     	{props.children}
   	</div>
   </div>
